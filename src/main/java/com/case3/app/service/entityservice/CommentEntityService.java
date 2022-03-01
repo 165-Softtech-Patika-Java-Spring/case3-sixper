@@ -47,6 +47,4 @@ public class CommentEntityService {
     public List<Comment> findCommentByProductId(Long productId){
         return commentDao.findByProductId(productId);
     }
-
-
 }
