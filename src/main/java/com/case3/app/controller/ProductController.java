@@ -1,10 +1,10 @@
 package com.case3.app.controller;
 
 
-import com.case3.app.dto.ProductResponseDto;
-import com.case3.app.dto.ProductSaveDto;
-import com.case3.app.entity.Product;
+import com.case3.app.dto.ProductDto.ProductResponseDto;
+import com.case3.app.dto.ProductDto.ProductSaveDto;
 import com.case3.app.service.ProductService;
+import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,8 +1,8 @@
 package com.case3.app.service;
 
 import com.case3.app.converter.ProductMapper;
-import com.case3.app.dto.ProductResponseDto;
-import com.case3.app.dto.ProductSaveDto;
+import com.case3.app.dto.ProductDto.ProductResponseDto;
+import com.case3.app.dto.ProductDto.ProductSaveDto;
 import com.case3.app.entity.Product;
 import com.case3.app.service.entityservice.ProductEntityService;
 import lombok.RequiredArgsConstructor;
