@@ -1,6 +1,7 @@
 package com.case3.app.entity;
 
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,8 +10,7 @@ import java.math.BigDecimal;
 
 @Entity
 @Table(name = "PRODUCT")
-@Getter
-@Setter
+@Data
 public class Product {
 
     @Id
