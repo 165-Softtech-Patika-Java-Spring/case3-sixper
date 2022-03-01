@@ -1,5 +1,7 @@
 # Case3
 
+!(src/main/resources/img/1.png)[]
+
 Bir online alışveriş sitesinin kullanıcı yorumlarını yöneten bir api yazınız.
 - Bir kullanıcının sadece bir e-maili ve bir telefon numarası olabilir.
 - Aynı kullanıcı adı, telefon ya da e-mail ile kayıt yapılamaz.
